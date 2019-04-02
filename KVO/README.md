@@ -217,9 +217,9 @@ class ViewController: UIViewController {
 在注册观察者前后分别打上断点，查看observed：
 
 * 断点1：
-![](https://github.com/CoderJTao/LearningRecord/blob/master/KVO/before_observed.png)
+![](https://github.com/CoderJTao/LearningRecord/blob/master/KVO/before_observed.jpg)
 * 断点2：
-![](https://github.com/CoderJTao/LearningRecord/blob/master/KVO/after_observed.png)
+![](https://github.com/CoderJTao/LearningRecord/blob/master/KVO/after_observed.jpg)
 
 可以发现：observed在被观察之后对象的isa指针被指向了一个新建的子类NSKVONotifying_ObservedClass。但是，我们打印observed的class信息时，发现返回的还是ObservedClass类型。说明动态创建的派生类NSKVONotifying_ObservedClass重写了class方法来隐藏自身。
 
