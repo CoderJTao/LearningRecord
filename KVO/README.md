@@ -1,5 +1,5 @@
 ## 前言
-[](https://github.com/CoderJTao/LearningRecord/blob/master/KVO/KVO_MindNode.jpg)
+![](https://github.com/CoderJTao/LearningRecord/blob/master/KVO/KVO_MindNode.jpg)
 ## 一、概述
 
 KVO,即：**Key-Value Observing**，是 Objective-C 对 观察者模式（Observer Pattern）的实现。它提供一种机制，当指定的对象的属性被修改后，观察者就会接受到通知。简单的说就是每次指定的被观察的对象的属性被修改后，KVO就会自动通知相应的观察者了。
