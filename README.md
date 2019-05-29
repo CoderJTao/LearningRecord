@@ -16,4 +16,6 @@
 7. [CoreBlutooth框架学习记录](https://github.com/CoderJTao/BleLearnDemo)
 
 
-关于学习记录的文章都会第一时间发布到[掘金平台](https://juejin.im/user/5a97cde851882555642b72cd/posts)，大家可以去关注一下哦。
+我所有的学习文章都会第一时间发布到[我的博客](https://coderjtao.github.io)以及[掘金平台](https://juejin.im/user/5a97cde851882555642b72cd/posts)，大家可以去关注一下哦。
+
+
