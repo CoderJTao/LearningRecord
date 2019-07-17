@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChangeIcon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Nv-Ei-OXf">
+                                <rect key="frame" x="147" y="388" width="120" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="cjL-HL-HW7"/>
+                                    <constraint firstAttribute="width" constant="120" id="gcH-7z-jTy"/>
+                                </constraints>
+                                <state key="normal" title="change" image="lambot.png">
+                                    <color key="titleColor" red="0.23427668209999999" green="0.76381915810000001" blue="0.65697270630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeOneClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xfL-MY-0Dx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXL-2p-s2J">
+                                <rect key="frame" x="107" y="448" width="200" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="E1n-pq-tRy"/>
+                                    <constraint firstAttribute="width" constant="200" id="lE5-SY-pyT"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.23427668209999999" green="0.76381915810000001" blue="0.65697270630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCN-md-fiu">
+                                <rect key="frame" x="147" y="468" width="120" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7mF-VK-yg9"/>
+                                    <constraint firstAttribute="width" constant="120" id="bvZ-M1-aYC"/>
+                                </constraints>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.23427668209999999" green="0.76381915810000001" blue="0.65697270630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qNI-dq-Rfs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tXL-2p-s2J" firstAttribute="top" secondItem="1Nv-Ei-OXf" secondAttribute="bottom" constant="20" id="0da-PL-hlo"/>
+                            <constraint firstItem="hCN-md-fiu" firstAttribute="top" secondItem="tXL-2p-s2J" secondAttribute="bottom" constant="20" id="b8l-0t-A8v"/>
+                            <constraint firstItem="tXL-2p-s2J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iq2-Os-y8S"/>
+                            <constraint firstItem="hCN-md-fiu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lc1-Ns-QUf"/>
+                            <constraint firstItem="tXL-2p-s2J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qar-2k-67D"/>
+                            <constraint firstItem="1Nv-Ei-OXf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vQU-Ij-hKd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lambot.png" width="29" height="29"/>
+    </resources>
+</document>
