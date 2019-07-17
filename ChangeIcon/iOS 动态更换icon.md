@@ -10,7 +10,7 @@
 
 为了动态更换 icon，我们需要先配置一下我们项目的 info.plist 文件：
 
-![](/Users/jiangtao/Desktop/plist.jpg)
+![](https://github.com/CoderJTao/LearningRecord/blob/master/ChangeIcon/plist.jpg)
 
 1. 加入 Icon files(iOS5)，其中会默认有两个 item：
 	1. Newsstand Icon
@@ -24,7 +24,7 @@
 
 这里我们就将 info.plist 编辑完成了，下面我们将对应的图片加入到项目中，这里的图片需要直接加到项目中，不能放在 Assets.xcassets 中。
 
-![](/Users/jiangtao/Desktop/目录.jpg)
+![](https://github.com/CoderJTao/LearningRecord/blob/master/ChangeIcon/目录.jpg)
 
 ## 更换 Icon
 
@@ -77,7 +77,7 @@ open var alternateIconName: String? { get }
 
 如果需要恢复为原始的 icon，只需要在传入 iconName 的地方传入 nil 即可。
 
-![](/Users/jiangtao/Desktop/效果图1.gif)
+![](https://github.com/CoderJTao/LearningRecord/blob/master/ChangeIcon/效果图1.gif)
 
 现在，已经完成了切换 Icon 的功能了。但是每次切换时，都会有一个弹框，下面我们就想办法去掉这个弹框。
 
@@ -157,7 +157,7 @@ extension DispatchQueue {
 
 现在，我们再更换 Icon 的时候，就不会出现弹出框了。
 
-![](/Users/jiangtao/Desktop/效果图2.gif)
+![](https://github.com/CoderJTao/LearningRecord/blob/master/ChangeIcon/效果图1.gif)
 
 ## 总结
 
